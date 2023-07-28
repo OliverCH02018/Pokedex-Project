@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+nav ul {
+    list-style:none;
+    margin: 30px;
+    text-align: center;
+    
+} 
+  
+nav li {
+    display: inline-block;
+    margin-right: 5px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: orange;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+  
+.pokemon-container {
+    width: 100%; 
+  }
+
+.pokemon-card {
+    display: inline-block;
+    width: 30%; 
+    height: 300px; 
+    margin: 10px; 
+    border: 1px solid black; 
+    text-align: center; 
+    column-count: 2;
+    column-gap: 10px;
+}
+    
+
+img {
+    width: 150px;
+    height: 150px;
+}
+ 
+h1, h2, h3{
+    text-align: center;
+}
